@@ -1,0 +1,47 @@
+$mine-shaft: #333;
+$white: #fff;
+$radical-red: #FF3A58;
+$cornflower-blue: #6188EA;
+$conifer: #8AE241;
+$lemon: #FFE30D;
+$twilight-blue: #F6FEFF;
+$scorpion: #635D5D;
+$reef: #BFFE8A;
+$conifer-dark: #A0E467;
+$ecru-white: #FBFCF7;
+$tower-gray: #ADBABD;
+$tower-gray-light: #A9B7B9;
+$cumulus: #FDFFD3;
+$emperor: #515151;
+$dove-gray: #707070;
+$nepal: #8AB7C0;
+$gothic: #6997A1;
+$mine-shaft-dark: #262525;
+$tundora: #474747;
+$geyser: #CBD8DB;
+$turbo: #FFE200;
+$olive: #8A7A00;
+$zambezi: #5A5555;
+$mystic: #E5ECEE;
+$header-box-shadow: 0px 1px 10px #0000001A;
+$feeinfo-box-shadow: 2px 2px 0px #0000001A;
+$stepbox-box-shadow: 3px 3px 0px #0000001A;
+$goalinfo-box-shadow: 1px 1px 0px #0000001A;
+$next-icon-boxshadow: 0px 0px 5px #00000029;
+
+
+@mixin primary-btn-style {
+  border-radius: 0.3125rem;
+  background-color: $radical-red;
+  color: $white;
+  border: 1px solid $radical-red;
+  font-family: 'GrandStander-clean', sans-serif;
+}
+
+@mixin secondary-btn-style {
+  border-radius: 0.3125rem;
+  border: 1px solid $radical-red;
+  font-family: 'GrandStander-clean', sans-serif;
+  color: $radical-red;
+  background-color: $white;
+}
